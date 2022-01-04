@@ -11,11 +11,11 @@ git clone https://github.com/zhan1530/paired-end-read-simulator.git
 cd paired-end-read-simulator/
 ```
 ## Required options 
-* -i STR reference genome
-* -n INT number of read 
-* -m INT mean of the insert size 
-* -d INT standard deviation of the insert size
-* -l INT read length
+* -i	STR	reference genome
+* -n	INT	number of read 
+* -m	INT	mean of the insert size 
+* -d	INT	standard deviation of the insert size
+* -l	INT	read length
 
 ## Examples of use
 To run this project, python 3 is required.
