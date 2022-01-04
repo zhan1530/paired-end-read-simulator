@@ -10,12 +10,15 @@ The simulaor is created with:
 git clone https://github.com/zhan1530/paired-end-read-simulator.git
 cd paired-end-read-simulator/
 ```
-## Setup
-	
-## Examples of use
-To run this project, source code and reference genome should be put into same direction. 
+## Required options 
+* -i STR reference genome
+* -n INT number of read 
+* -m INT mean of the insert size 
+* -d INT standard deviation of the insert size
+* -l INT read length
 
+## Examples of use
+To run this project, python 3 is required.
 ```
-$ cd ../lorem
-$ npm install
+python program_rev_2022.01.py -i EF1813.fasta -n 10000  -m 500 -d 50 -l 75
 ```
