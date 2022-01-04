@@ -20,5 +20,5 @@ cd paired-end-read-simulator/
 ## Examples of use
 To run this project, python 3 is required.
 ```
-python program_rev_2022.01.py -i EF1813.fasta -n 10000  -m 500 -d 50 -l 75
+python program_rev_2022.01.py -i EF1813.fasta -n 10000 -m 500 -d 50 -l 75
 ```
